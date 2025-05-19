@@ -58,6 +58,7 @@ from root.flask_routes.payment.billingParty import app_file35
 from root.flask_routes.booking.schedulewithMiti import app_file36
 from root.flask_routes.payment.deletebillingParty import app_file37
 from root.flask_routes.payment.changeAdvancePayment import app_file38
+from root.flask_routes.inquiry.postinquiry import app_file39
 
 app.register_blueprint(app_file1)
 app.register_blueprint(app_file2)
@@ -97,6 +98,7 @@ app.register_blueprint(app_file35)
 app.register_blueprint(app_file36)
 app.register_blueprint(app_file37)
 app.register_blueprint(app_file38)
+app.register_blueprint(app_file39)
 
 
 
